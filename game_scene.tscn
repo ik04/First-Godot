@@ -1,3 +1,7 @@
-[gd_scene format=3 uid="uid://d4bhyipbtpq5y"]
+[gd_scene load_steps=2 format=3 uid="uid://d4bhyipbtpq5y"]
+
+[ext_resource type="PackedScene" uid="uid://bisxifjdaums6" path="res://Characters/playet_cat.tscn" id="1_igodu"]
 
 [node name="game_scene" type="Node2D"]
+
+[node name="playetCat" parent="." instance=ExtResource("1_igodu")]
